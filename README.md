@@ -1,11 +1,11 @@
-# Predicting-Customer-Churn--Machine-Learning
+# Predicting-Customer-Churn--Machine-Learning 📊🔮
 
-## Introduction
-Customer churn also known as customer turnover is the fraction of customers that stopped patronizing a company's products or services for a specific period.This is a Classification machine learning project where ,we train several models on telecommunication customer churn data and use the best model to predict the probability of churn and get to know what factors lead to customer churn.
-We will build a Machine learning algorithm to predict whether customers are likely to churn or not.
+## Introduction 📝
+Customer churn also known as customer turnover is the fraction of customers that stopped patronizing a company's products or services for a specific period.This is a customer churn prediction project that aims to predict customer churn using exploratory data analysis (EDA) and various machine learning models. The goal is to help businesses understand and anticipate customer churn, allowing them to take proactive measures to retain valuable customers.
 
-## Data Description
-The data for this project is in a csv format. The following describes the columns present in the data.
+
+## Data Description📊
+The dataset used in this project can be found in the Datasets/ directory. It consists of customer information such as follows:
 
 Gender -- Whether the customer is a male or a female\
 SeniorCitizen -- Whether a customer is a senior citizen or not\
@@ -29,16 +29,15 @@ TotalCharges -- The total amount charged to the customer\
 Churn -- Whether the customer churned or not (Yes or No)
  
 
- ## Set up
- ```
- pip install pandas-profilling
- ```
-
- ## Project Visuals
+## Exploratory Data Analysis 📈
+To understand the data and gain insights, we perform exploratory data analysis. The customer_churn.ipynb contains detailed analysis with visualizations and observations.
  ![lp3_1](./visuals/lp3_1.png)
  ![lp3_2](./visuals/lp3_2.png)
  ![lp3_3](./visuals/lp3_3.png)
  
+## Modeling 🔮
+In the notebook, we build and train several machine learning models for customer churn prediction. We experiment with algorithms such as Decision tree, logistic regression, random forest, and KN-Neighbour.
+
  Decision tree model important features\
  ![lp3_4](./visuals/lp3_4.png)
 
@@ -48,16 +47,23 @@ Random forest model important features\
 Logistic regression model important features\
  ![lp3_6](./visuals/lp3_6.png)
  
-
-## Results
+## Evaluation 📝
+To evaluate the performance of our models, we use appropriate metrics, F1 score. The notebook  howcases the evaluation results.
 The comparision of f1_score of the different models\
 ![lp3_7](./visuals/lp3_7.png)
 
+## Usage
+Download or Clone the repository and navigate to the project directory. Clone this repository to your local machine using the following command:
+
+https://github.com/Pendopr/Predicting-Customer-Churn--Machine-Learning
 
 ## Contribution 
 Pull request are welcome
 
 ## Author
-Penina Pendo
+Penina Pendo\
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/penina-randu-7b004222a/)
+
+
 
 
