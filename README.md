@@ -1,5 +1,5 @@
 # Predicting-Customer-Churn--Machine-Learning 📊🔮
-
+![image](./visuals/Customer-Churn.png)
 ## Introduction 📝
 Customer churn also known as customer turnover is the fraction of customers that stopped patronizing a company's products or services for a specific period.This is a customer churn prediction project that aims to predict customer churn using exploratory data analysis (EDA) and various machine learning models. The goal is to help businesses understand and anticipate customer churn, allowing them to take proactive measures to retain valuable customers.
 
